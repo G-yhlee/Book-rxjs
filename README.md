@@ -1,9 +1,9 @@
-# gitbook-template
+# rxjs
 
-* 깃북 템플릿입니다.
+* rxjs 학습자료
 
 ## INFO
 
-Github: [https://github.com/G-yhlee/book-template](https://github.com/G-yhlee/book-template)  
-Gitbook: [https://g-yhlee.gitbook.io/template/](https://g-yhlee.gitbook.io/template/)
+Github: [https://github.com/G-yhlee/book-rxjs](https://github.com/G-yhlee/book-rxjs)  
+Gitbook: [https://g-yhlee.gitbook.io/rxjs/](https://g-yhlee.gitbook.io/rxjs/)
 

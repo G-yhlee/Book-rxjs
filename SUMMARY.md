@@ -1,7 +1,7 @@
 # Table of contents..
 
-* [template](README.md)
+* [rxjs](README.md)
 
 
 ## subject
-* [subject](book/subject/subject.md)
+* [guide](book/guide/guide.md)
