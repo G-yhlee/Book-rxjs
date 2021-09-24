@@ -10,3 +10,7 @@
 [rxjs시각화](https://reactive.how/)
 
 [rxjs시각화2](https://rxviz.com/)
+
+
+## 오퍼레이터 알아보기
+[오퍼레이터] (https://rxjs-dev.firebaseapp.com/guide/operators)
