@@ -4,7 +4,15 @@
 ```
 
 
-## 스트림 { 배열 스트림, 시간 스트림, 이벤트 스트림, 요청 스트림 , 사용자 스트림 }
+## 스트림 
+```md
+ 배열 스트림: of, from, range, generate
+ 시간 스트림: interval, timer
+ 이벤트 스트림: fromEvent
+ 요청 스트림: ajax
+ 사용자 스트림: Observable
+
+```
 ```js
 const { 
     of, from, range, generate,
@@ -34,12 +42,9 @@ const streams = {
 
 }
 
-
 const subscriber = stream => stream.subscribe(s=>console.log(s))
-/* subscriber(streams.E_fromEvent$) */
 
 Object.keys(streams).map(k=>subscriber(streams[k]))
-
 ```
 
 
