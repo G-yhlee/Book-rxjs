@@ -8,5 +8,7 @@
 
 ## tutorial
 * [setting](book/tutorial/setting.md)
-* [pattern](book/tutorial/pattern.md)
 * [stream](book/tutorial/stream.md)
+* [pattern](book/tutorial/pattern.md)
+* [pattern2](book/tutorial/pattern2.md)
+
