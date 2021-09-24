@@ -1,10 +1,11 @@
 ## 패턴 
 ```js
 
-observable$.pipe( 
- operator(x => x + 1 ),
- operator2(x => x + 1 ),
- ...
+observable$.pipe(
+  tap(console.log),
+  filter(x => x % 2 === 0),
+  map(x => x * x)
 ).subscribe(observer)
 
 ```
+
