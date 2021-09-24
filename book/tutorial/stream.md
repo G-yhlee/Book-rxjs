@@ -22,7 +22,7 @@ const streams = {
  T_interval$: interval(1000),
  T_timer$: timer(3000),
  E_fromEvent: fromEvent(document, 'click'),
- E_fromEvent: fromEvent(document.getElementById('myInput'), 'keypress'),
+ E_fromEvent2: fromEvent(document.getElementById('myInput'), 'keypress'),
  X_ajax: ajax(`http://127.0.0.1:3000/people/1`),
  C_Observable : new Observable(subscriber => {
   subscriber.next(1)
