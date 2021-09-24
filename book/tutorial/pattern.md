@@ -22,3 +22,10 @@ observable$.subscribe(
 )
 ```
 
+## 예시 3
+```js
+observable$.subscribe(
+  console.log
+)
+```
+
