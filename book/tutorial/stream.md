@@ -32,6 +32,9 @@ const streams = {
   subscriber.next(3)
   // 값을 다 발행한 뒤에는 compelte를 실행하여 메모리 해제 
   subscriber.complete()
+  // complete 이후엔 발행 종료
+  subscriber.next(4)
+
 })
 
 }

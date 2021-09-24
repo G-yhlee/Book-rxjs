@@ -1,9 +1,15 @@
 ## rx 패턴 
 ```js
-observable$.subscribe(observer)
+
+// 구독 
+const subscription = observable$.subscribe(observer)
+
+// 구독 해제
+setTimeout(_ => subscription.unsubscribe(), 1000)
+
 ```
 
-## 예시 1
+## 구독 예시 1
 ```js
 const observer = {
   next: console.log,
@@ -13,7 +19,7 @@ const observer = {
 observable$.subscribe(observer)
 
 ```
-## 예시 2
+## 구독 예시 2
 ```js
 observable$.subscribe(
   console.log,
@@ -22,10 +28,9 @@ observable$.subscribe(
 )
 ```
 
-## 예시 3
+## 구독 예시 3 - 부분만 적용가능
 ```js
 observable$.subscribe(
   console.log
 )
 ```
-
