@@ -5,3 +5,6 @@
 
 ## subject
 * [guide](book/guide/guide.md)
+
+## tutorial
+* [stream](book/tutorial/stream.md)
